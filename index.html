@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<title>Project</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<body>
+
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">My Sketches</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About Me</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact Me</a>
+  </div>
+</nav>
+
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Arina</b></h1>
+    <p>High School Fashion Designer</p>
+    <img src="https://images.app.goo.gl/TwszLzmNYtPbKjUNA" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <!-- <img src="/w3images/profile_girl.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">-->
+  </header>
+
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h2 class="w3-text-grey">My Sketches</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://i0.wp.com/textilelearner.net/wp-content/uploads/2022/10/Fashion-Illustration.jpg?fit=587%2C383&ssl=1" style="width:100%">
+        <img src="https://cdn.shopify.com/s/files/1/2081/6987/files/nrm_1423440554-elle-fashion-sketch-comp_large.jpg?v=1564153154" style="width:100%">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgr6Hgob2eOxBb6GkMFqvYTHoG0R-IghmP0-M3wThBnyQqSI1cN1k6wYL9-28WodHAyqb131pUxXUKVh3J7uAGY4x__KHkLhEHTwbQrs7XkPm9PtjNtz-aZLK9xM3PHgDN17E71pdxpTGiteqtdZ0nM5ulnpuCfhsbFMlKWuuFVmDtOSPN-Rlqs4XtSFw/s1600/04-Blue-and-black-gown-Fashion-Gown-Drawing-Vrisha-www-designstack-co.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/fashion-week-ss19-designer-sketches-1536174070.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*" style="width:100%">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/elle-nyfw-inspiration-1504635147.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*" style="width:100%">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/nyfwsketches-1567608885.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*" style="width:100%">
+        <img src="https://www.hunarcourses.com/blog/wp-content/uploads/2023/01/Title-Image-5.jpg" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About Me</h2>
+    <hr class="w3-opacity">
+    <p>Hi, my name is Arina and as you read above, I am a fashion designer. I have been "addicted" to it since I was 11 years old when I drew my first sketches. Now I enjoy it more as a side-hustle, but also a passion that
+    	disconnects me from the real world and all the school work. Here I posted some of my drawings. I hope you like them!
+        <br>
+        If you want to now more about me, feel free to check the <a href="#contact"><b>Contact Me</b></a> box down bellow.
+   
+    <h3 class="w3-padding-16">My Skills</h3>
+    <hr class="w3-opacity">
+    <ul>
+    	<li><b>Creativity</b></li>
+        <li><b>Visualizing</b></li>
+        <li><b>Sketching/Drawing</b></li>
+        <li><b>Sewing</b></li>
+    </ul>
+  </div>
+
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Theoretical Lyceum "Orizont", Durlești Branch</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +3736060092929</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: arina.beiu@orizont.md</p>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10881.14845999573!2d28.7514744!3d47.014969!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97e1c27e05f89%3A0x308080d6aced132a!2sLiceul%20Teoretic%20Orizont%20Filiala%20Durle%C5%9Fti!5e0!3m2!1sen!2s!4v1702832651240!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  </footer>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "30%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html>
